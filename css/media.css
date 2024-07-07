@@ -1,0 +1,63 @@
+
+@media (max-width: 2000px) {
+    .services .titl span {
+    top: 9px;
+    left: -3%;
+    }
+}@media (min-width: 1200px) {
+    .g.card-body {
+        height: 550px;
+      }
+     
+    }
+@media (max-width: 1200px) {
+    #buttons {
+        top: 350px;}
+
+        .g.card-body {
+            height: 500px;
+          }
+        .pr-card .gld{
+            padding-top:1.5rem ;
+        }  
+}
+
+@media (max-width: 992px) {
+    .car-inn h2 {
+        font-size: 60px;
+    }
+
+    .car-cap h4 {
+        font-size: 15px;
+    }
+
+    .services .titl span {
+        top: 9px;
+        left: 42%;
+    }
+    .arrows1 button {
+        display: none;
+    }
+    .arrows1{
+        transform: scale(0.8);
+    }
+}
+@media (max-width: 768px) {
+    .btn1,
+    .btn2 {
+        visibility: hidden;
+    }
+      
+    .services .titl span {
+        top: 9px;
+        left:0;
+    }
+   .fed-bck .car-cap{
+    position: absolute;
+    top: 20%;
+   }
+}
+
+@media (max-width: 576px) {
+  
+}
