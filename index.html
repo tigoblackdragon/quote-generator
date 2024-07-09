@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
   <head>
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -8,30 +8,30 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="css/bootstrap-utilities.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/media.css" />
+   
   </head>
-  <body data-bs-theme="dark">
+  <body 
+  >
     <div class="container">
-      <div class="drk-mod brd position-relative">
-        <i class="fas fa-moon position-absolute"></i>
-        <i class="fas fa-sun position-absolute"></i>
+      <div class="drk-mod position-relative pt-2">
+       <button id="sun" class="position-absolute end-0 visually-hidden"  onclick="setLightMode()"> <i class="fas  fa-sun position-absolute end-0"></i></button>
+       <button id="moon" class="position-absolute end-0 "  onclick="setDarkMode()"><i class="fas fa-moon  position-absolute end-0"></i></button>
       </div>
 
-      <h1 class="text-center pt-2 pb-5">Quote of the Day</h1>
-      <p class="pt-2 pb-2">Press the button below to recieve a random quote!</p>
-      <div class="d-flex justify-content-center pt-2 pb-2">
-        <button onclick="" class="btn btn-outline-info mb-3">NEW Quote</button>
+      <h1 class="text-center pt-3 pb-3">Quote of the Day</h1>
+      <p class="pt-2 pb-2">Press the button below to receive a random quote!</p>
+      <div class="d-flex justify-content-center pt-2 pb-4">
+        <button onclick="generateQuote()" class="btn  btn-info mb-3">NEW Quote</button>
       </div>
-      <div class="quote pt-5 pb-5 position-relative">
+      <div class="quote pt-3 pb-3 position-relative ">
         <div class="ovr_rly w-100"></div>
-        <p>
-          "The best revenge is massive success."<br /><br /><br />--Frank
-          Sinatra
+        <p class="start-50 top-50 translate-middle text-white">
+          "The best revenge is massive success."<br /><br /><br /> <span class="fs-4">--Frank
+            Sinatra</span>
         </p>
       </div>
     </div>
